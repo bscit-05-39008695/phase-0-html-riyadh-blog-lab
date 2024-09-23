@@ -84,3 +84,63 @@ a:hover {
     width: 95%;
   }
 }
+/* General styles for the body */
+body {
+  font-family: Arial, sans-serif; /* Change font family */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ffcccb, #c2e9fb); /* Gradient background color */
+}
+
+/* Wrapper styles */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header h1 {
+  color: #2c3e50; /* Font color for the main header */
+  font-size: 2.5em; /* Font size for the main header */
+  text-align: center;
+}
+
+/* Subheader styles */
+h2 {
+  color: #34495e; /* Font color for the subheader */
+  font-size: 1.8em; /* Font size for the subheader */
+  text-align: center;
+}
+
+/* Content styles */
+h3 {
+  color: #e74c3c; /* Font color for h3 elements */
+  font-size: 1.5em; /* Font size for h3 elements */
+  margin-top: 20px;
+}
+
+p {
+  color: #555; /* Font color for paragraphs */
+  font-size: 1em; /* Font size for paragraphs */
+  line-height: 1.5; /* Line height for better readability */
+}
+
+/* Image styles */
+img {
+  max-width: 100%; /* Responsive images */
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Center images */
+}
+
+/* Link styles */
+a {
+  color: #2980b9; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+  color: #3498db; /* Change link color on hover */
+}
